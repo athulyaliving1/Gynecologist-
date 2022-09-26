@@ -5,16 +5,16 @@ function TestimonialNew() {
   return (
     <>
       <div className="bg-zinc-100">
-        <h2 className="px-4 pt-10 text-2xl font-bold leading-6 text-center capitalize md:text-xl xl:text-2xl text-sky-800 font-Helvetica ">
+        <h2 className="px-4 pt-10 text-2xl font-bold leading-6 text-center capitalize md:text-xl xl:text-2xl text-sky-900 font-Helvetica ">
           Testimonials
         </h2>
-        <h1 className="px-4 mt-6 text-2xl font-bold text-center capitalize lg:text-4xl md:text-4xl text-sky-800 font-Helvetica">
+        <h1 className="px-4 mt-6 text-2xl font-bold text-center capitalize lg:text-4xl md:text-4xl text-sky-900 font-Helvetica">
           What our<span className="text-pink-500"> client says</span>
         </h1>
         <div className="container grid gap-6 px-10 py-20 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20">
           <div>
-            <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
-              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
+            <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-900 md:p-12 rounded-xl">
+              <div className="flex flex-col items-center text-gray-800 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -125,7 +125,7 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                 P Akila
               </p>
               <div className="mt-2 text-yellow-400">
@@ -139,7 +139,7 @@ function TestimonialNew() {
           </div>
           <div>
             <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
-              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
+              <div className="flex flex-col items-center text-gray-800 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -250,7 +250,7 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                 Kaviya
               </p>
               <div className="mt-2 text-yellow-400">
@@ -264,7 +264,7 @@ function TestimonialNew() {
           </div>
           <div>
             <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
-              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
+              <div className="flex flex-col items-center text-gray-800 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -375,7 +375,7 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                 Sujitha Rajendran
               </p>
               <div className="mt-2 text-yellow-400">
