@@ -5,16 +5,16 @@ function TestimonialNew() {
   return (
     <>
       <div className="bg-zinc-100">
-        <h2 className="text-2xl leading-6  text-center px-4 pt-10  md:text-xl xl:text-2xl    text-sky-800  font-bold capitalize font-Helvetica  ">
+        <h2 className="px-4 pt-10 text-2xl font-bold leading-6 text-center capitalize md:text-xl xl:text-2xl text-sky-800 font-Helvetica ">
           Testimonials
         </h2>
-        <h1 className="lg:text-5xl md:text-4xl text-2xl  text-sky-800  font-bold capitalize font-Helvetica  px-4  mt-6 text-center">
+        <h1 className="px-4 mt-6 text-2xl font-bold text-center capitalize lg:text-4xl md:text-4xl text-sky-800 font-Helvetica">
           What our<span className="text-pink-500"> client says</span>
         </h1>
-        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
+        <div className="container grid gap-6 px-10 py-20 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20">
           <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+            <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
+              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -43,13 +43,13 @@ function TestimonialNew() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Swift response. Good support and service by staff. Doctors
-                  have great patience and provide good consultation to the
-                  elderly.
+                <p className="mt-4 mb-8 text-base font-semibold leading-normal text-center md:text-xl font-Ubuntu xl:w-80 ">
+                  Very good service. Thanks and kudos to the Athulya homecare
+                  team. Such a professional approach with care. My best wishes
+                  for athulya home care to reach more and more heights.
                 </p>
               </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
+              <div className="absolute bottom-0 -mb-6 text-white group-hover:text-sky-800">
                 <svg
                   width={34}
                   height={28}
@@ -125,10 +125,10 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Arivoli A
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+                P Akila
               </p>
-              <div className="text-yellow-400 mt-2">
+              <div className="mt-2 text-yellow-400">
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
@@ -138,8 +138,8 @@ function TestimonialNew() {
             </div>
           </div>
           <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+            <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
+              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -168,13 +168,13 @@ function TestimonialNew() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Very good service for senior home care patients. Dr. Janakan,
-                  examined my Grandma very well and had much patience to listen
-                  elderly people.
+                <p className="mt-4 mb-8 text-base font-semibold leading-normal text-center md:text-xl font-Ubuntu xl:w-80 ">
+                  It was a good experience I had with athulya home care. The
+                  Doctor was too polite to the patient very good service they
+                  give. Thanks!
                 </p>
               </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
+              <div className="absolute bottom-0 -mb-6 text-white group-hover:text-sky-800">
                 <svg
                   width={34}
                   height={28}
@@ -250,10 +250,10 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Vishwa bal
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+                Kaviya
               </p>
-              <div className="text-yellow-400 mt-2">
+              <div className="mt-2 text-yellow-400">
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
@@ -263,8 +263,8 @@ function TestimonialNew() {
             </div>
           </div>
           <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+            <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-800 md:p-12 rounded-xl">
+              <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                 <svg
                   width={26}
                   height={27}
@@ -293,12 +293,13 @@ function TestimonialNew() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Took doctor visit in my home for my father. He is recovering
-                  well. Happy with the service provided. Thank you.
+                <p className="mt-4 mb-8 text-base font-semibold leading-normal text-center md:text-xl font-Ubuntu xl:w-80 ">
+                  I have no words to express my sincere gratitude to Athulya
+                  home care for their speechless effort given to the patients.
+                  All the Doctors and Nurses are very affectionate and caring.
                 </p>
               </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
+              <div className="absolute bottom-0 -mb-6 text-white group-hover:text-sky-800">
                 <svg
                   width={34}
                   height={28}
@@ -374,10 +375,10 @@ function TestimonialNew() {
             </div>
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Sathiya satz
+              <p className="text-base font-semibold leading-4 text-center font-Helvetica opacity-90 ">
+                Sujitha Rajendran
               </p>
-              <div className="text-yellow-400 mt-2">
+              <div className="mt-2 text-yellow-400">
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>

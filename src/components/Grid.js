@@ -2,7 +2,7 @@ import React from "react";
 
 function Grid() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-zinc-100">
       <div className="container pb-10 mx-auto">
         <h2 className="block pt-5 mb-8 text-xl font-semibold text-center capitalize lg:text-3xl text-sky-900 font-Helvetica">
           What can you expect from <span className="text-pink-500 ">the consultation?</span> 

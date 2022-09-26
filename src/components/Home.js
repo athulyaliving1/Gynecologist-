@@ -6,6 +6,7 @@ import XlForm from "./Basic/XlForm";
 import Content from "./Content";
 import Content2 from "./Content2";
 import Grid from "./Grid";
+import TestimonialNew from "./TestimonialNew";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Content />
       <Content2/>
       <Grid/>
+      <TestimonialNew/>
     </div>
   );
 }
