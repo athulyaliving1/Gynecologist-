@@ -2,35 +2,83 @@ import React from "react";
 
 function Content() {
   return (
-    <div className="container py-16 mx-auto    lg:py-20">
-      <div className="flex flex-col  overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
-        <div className="relative lg:w-1/2">
-          <img
-            src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            alt=""
-            className="object-cover w-full lg:absolute h-80 lg:h-full"
-          />
-          <svg
-            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
-            viewBox="0 0 20 104"
-            fill="currentColor"
-          >
-            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
-          </svg>
-        </div>
-        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
-          <h5 className="mb-2 block text-xl lg:text-2xl   font-semibold text-sky-800 text-center font-Helvetica">
-            Best Ophthalmologist<span> </span>
-            <span className="text-pink-500 capitalize">Home Consultation</span>
-          </h5>
-          <p className="mb-8 md:text-xl text-gray-800 font-Ubuntu font-semibold opacity-90  text-justify">
-            <span className="font-bold">The</span> outstanding ophthalmology
-            medical care provided by Athulya Home Healthcare allows people who
-            experience difficulties to travel to the hospitals to be received at
-            home, where they can relax. If you simply search for "best eye
-            ophthalmologist near me," the Athulya staff will take care of the
-            rest.
-          </p>
+    <div className="">
+      <div className="">
+        <div className="container relative pt-10 mx-auto">
+          <div className="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
+            <svg
+              viewBox="0 0 88 88"
+              className="w-full max-w-screen-xl text-zinc-300"
+            >
+              <circle fill="currentColor" cx="44" cy="44" r="15.5" />
+              <circle
+                fillOpacity="0.2"
+                fill="currentColor"
+                cx="44"
+                cy="44"
+                r="44"
+              />
+              <circle
+                fillOpacity="0.2"
+                fill="currentColor"
+                cx="44"
+                cy="44"
+                r="37.5"
+              />
+              <circle
+                fillOpacity="0.3"
+                fill="currentColor"
+                cx="44"
+                cy="44"
+                r="29.5"
+              />
+              <circle
+                fillOpacity="0.3"
+                fill="currentColor"
+                cx="44"
+                cy="44"
+                r="22.5"
+              />
+            </svg>
+          </div>
+          <div className="grid gap-10 lg:grid-cols-2">
+            <div className="relative lg:pr-10">
+              <h5 className="block mb-2 text-xl font-semibold text-center capitalize lg:text-3xl text-sky-900 font-Helvetica">
+                A woman’s health is
+                <br className="hidden md:block" />
+                <span className="text-pink-500 ">
+                  her capital
+                </span>
+              </h5>
+              <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu">
+                Yes! Health is more important than anything, but are we paying
+                much attention to the red signals our body sends? We are aware
+                that a woman’s body undergoes a lot of changes throughout her
+                life. Hence it is important to take care of your health at each
+                stage of life. But most of the time especially elderly women
+                ignore their health and well-being. It’s time to take care of
+                it! Consulting a gynecologist can be an eye-opener to know
+                what's happening within you.
+              </p>
+              <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu ">
+                A gynecologist is a specialist who provides exclusive medical
+                care for all kinds of health issues that a woman might
+                experience. Athulya cares for you. Being geriatric care
+                providers, we work towards the betterment of the senior’s life.
+                As a part of it and to promote healthy living for women, Athulya
+                Senior Care provides the best Gynecologist consultation for
+                geriatric women at home from October 1st, 2022 - October 31st,
+                2022.
+              </p>
+            </div>
+            <div className="grid content-center">
+              <img
+                className="relative object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
