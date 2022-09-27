@@ -5,9 +5,9 @@ import Thankpic from "../../Assest/thank-you-banner.jpg";
 function Thankpage() {
   return (
     <div>
-      <section class="text-gray-600 body-font bg-zinc-100  bg-fixed">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10">
+      <section class="text-gray-600 body-font bg-zinc-100 ">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap ">
+          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10  xl:pb-5">
             <img
               alt="feature"
               class="object-cover object-center h-full w-full"
@@ -21,7 +21,9 @@ function Thankpage() {
                   <span className="relative"> Your</span>
                 </span>
                 <span></span> form is{" "}
-                <span className="text-pink-500 capitalize">Successfully submitted!</span>
+                <span className="text-pink-500 capitalize">
+                  Successfully submitted!
+                </span>
               </h2>
               <p className="text-base font-semibold text-sky-800 md:text-lg xl:text-xl 2xl:text-xl font-Ubuntu">
                 Thank for your enquiring with us! Our Customer Service
@@ -30,7 +32,7 @@ function Thankpage() {
               </p>
             </div>
 
-            <div className="flex justify-center mt-10">
+            <div className="flex justify-center ">
               <button class="relative px-10 py-3 font-medium text-white transition duration-300 bg-sky-700 rounded-md hover:bg-sky-800 ease">
                 <span class="absolute bottom-0 left-0 h-full -ml-2">
                   <svg
