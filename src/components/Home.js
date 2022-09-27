@@ -16,9 +16,9 @@ function Home() {
       <XlForm />
       <MdForm />
       <Content />
-      <Content2/>
-      <Grid/>
-      <TestimonialNew/>
+      <Content2 />
+      <Grid />
+      <TestimonialNew />
     </div>
   );
 }

@@ -1,4 +1,8 @@
 import React from "react";
+import Contentmb from "../Assest/image-5.jpg";
+import Contentmb1 from "../Assest/image-6.jpg";
+import Contentmb2 from "../Assest/imagemd-2.jpg";
+import Contentmb3 from "../Assest/imagemd-3.jpg";
 
 function Content2() {
   return (
@@ -7,9 +11,14 @@ function Content2() {
         <div className="container pb-10 mx-auto space-y-12">
           <div className="flex flex-col space-y-5 overflow-hidden rounded-md shadow-sm lg:space-y-0 lg:space-x-10 lg:flex-row">
             <img
-              src="https://source.unsplash.com/640x480/?1"
-              alt=""
-              className="bg-gray-500 h-80 aspect-video"
+              src={Contentmb}
+              alt="sample"
+              className="hidden bg-gray-500 rounded h-80 aspect-video lg:block"
+            />
+            <img
+              src={Contentmb2}
+              alt="sample"
+              className="block bg-gray-500 rounded h-80 aspect-video lg:hidden "
             />
             <div className="grid content-center ">
               <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu lg:text-justify ">
@@ -23,11 +32,8 @@ function Content2() {
             </div>
           </div>
           <div className="flex flex-col space-y-5 overflow-hidden rounded-md shadow-sm lg:space-y-0 lg:flex-row-reverse">
-            <img
-              src="https://source.unsplash.com/640x480/?2"
-              alt=""
-              className="h-80 aspect-video"
-            />
+            <img src={Contentmb1} alt="" className="hidden rounded h-80 aspect-video lg:block" />
+            <img src={Contentmb3} alt="" className="block rounded h-80 aspect-video lg:hidden" />
             <div className="grid content-center lg:pr-10 ">
               <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu">
                 Therefore, it is very important to take care of your health in

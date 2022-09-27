@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import mbbanner from "../../Assest/Mbbanner.jpg";
+import mbbanner from "../../Assest/gyna-2.jpg";
 
 // import MbBanner1 from "../components/Assets/sm-banner.jpg";
 

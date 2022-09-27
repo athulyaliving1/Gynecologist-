@@ -1,4 +1,6 @@
 import React from "react";
+import content1 from "../Assest/image-4.jpg";
+import content12 from "../Assest/imagemd-1.jpg";
 
 function Content() {
   return (
@@ -45,10 +47,8 @@ function Content() {
             <div className="relative lg:pr-10">
               <h5 className="block mb-2 text-xl font-semibold text-center capitalize lg:text-3xl text-sky-900 font-Helvetica">
                 A woman’s health is
-                <br className="hidden md:block" />
-                <span className="text-pink-500 ">
-                  her capital
-                </span>
+                <br className="block" />
+                <span className="text-pink-500 ">her capital</span>
               </h5>
               <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu">
                 Yes! Health is more important than anything, but are we paying
@@ -71,12 +71,21 @@ function Content() {
                 2022.
               </p>
             </div>
-            <div className="grid content-center">
-              <img
-                className="relative object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                alt=""
-              />
+            <div className="grid content-center ">
+              <div className="hidden xl:block">
+                <img
+                  className="relative object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                  src={content1}
+                  alt="sample"
+                />
+              </div>
+              <div className="block xl:hidden">
+                <img
+                  className="relative object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                  src={content12}
+                  alt="sample"
+                />
+              </div>
             </div>
           </div>
         </div>
