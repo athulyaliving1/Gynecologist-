@@ -1,6 +1,6 @@
 import React from "react";
-import content1 from "../Assest/image-4.jpg";
-import content12 from "../Assest/imagemd-1.jpg";
+import content1 from "../Assest/image-4.png";
+import content12 from "../Assest/imagemd-1.png";
 
 function Content() {
   return (

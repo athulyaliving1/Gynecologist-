@@ -67,7 +67,7 @@ function MbBanner() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contact",
+      "https://contact-app-server-athulya.herokuapp.com/contactgynaecologychennai",
       {
         name,
         number,
