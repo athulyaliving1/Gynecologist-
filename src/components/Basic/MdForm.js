@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -33,6 +34,7 @@ const schema = yup
 
 function MdForm() {
   // const [status, setStatus] = useState("Submit");
+  let navigate = useNavigate();
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -66,13 +68,14 @@ function MdForm() {
       }
     );
 
-    Swal.fire({
-      icon: "success",
-      title: "Our Message Has Been Sent!",
-      text: "Our Team Will Contact You Shortly  ",
-      showConfirmButton: false,
-      timer: 2000,
-    });
+    // Swal.fire({
+    //   icon: "success",
+    //   title: "Our Message Has Been Sent!",
+    //   text: "Our Team Will Contact You Shortly  ",
+    //   showConfirmButton: false,
+    //   timer: 2000,
+    // });
+    navigate("/tkpage");
 
     setTimeout(function () {
       window.location.reload(1);
