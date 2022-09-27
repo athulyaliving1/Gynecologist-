@@ -128,7 +128,7 @@ function TestimonialNew() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
-                <img src={user} alt="profile pictre" className="w-12 h-12" />
+                <img src={user} alt="profile pictre" className="w-12 h-12 rounded-full" />
                 <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                   P Akila
                 </p>
@@ -253,7 +253,7 @@ function TestimonialNew() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
-                <img src={user} alt="profile pictre" className="w-12 h-12" />
+                <img src={user} alt="profile pictre" className="w-12 h-12 rounded-full" />
                 <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                   Kaviya
                 </p>
@@ -378,7 +378,7 @@ function TestimonialNew() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
-                <img src={user} alt="profile pictre" className="w-12 h-12" />
+                <img src={user} alt="profile pictre" className="w-12 h-12 rounded-full" />
                 <p className="text-base font-semibold leading-4 text-center font-Helvetica ">
                   Sujitha Rajendran
                 </p>
