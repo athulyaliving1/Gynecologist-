@@ -1,8 +1,8 @@
 import React from "react";
-import Contentmb from "../Assest/image-5.png";
-import Contentmb1 from "../Assest/image-6.png";
-import Contentmb2 from "../Assest/imagemd-2.png";
-import Contentmb3 from "../Assest/imagemd-3.png";
+import Contentmb from "../Assest/web-2.jpg";
+import Contentmb1 from "../Assest/web-3.jpg";
+import Contentmb2 from "../Assest/mobile-b.jpg";
+import Contentmb3 from "../Assest/mobile-c.jpg";
 
 function Content2() {
   return (
@@ -13,12 +13,12 @@ function Content2() {
             <img
               src={Contentmb}
               alt="sample"
-              className="hidden bg-gray-500 rounded h-80 aspect-video lg:block"
+              className="hidden bg-gray-500 rounded h-80 aspect-video md:block"
             />
             <img
               src={Contentmb2}
               alt="sample"
-              className="block bg-gray-500 rounded h-80 aspect-video lg:hidden "
+              className="block bg-gray-500 rounded h-80 aspect-video md:hidden "
             />
             <div className="grid content-center ">
               <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu lg:text-justify ">
@@ -35,12 +35,12 @@ function Content2() {
             <img
               src={Contentmb1}
               alt=""
-              className="hidden rounded h-80 aspect-video lg:block"
+              className="hidden rounded h-80 aspect-video md:block"
             />
             <img
               src={Contentmb3}
               alt=""
-              className="block rounded h-80 aspect-video lg:hidden"
+              className="block rounded h-80 aspect-video md:hidden"
             />
             <div className="grid content-center lg:pr-10 ">
               <p className="mb-8 font-semibold text-justify text-gray-800 md:text-xl font-Ubuntu">
