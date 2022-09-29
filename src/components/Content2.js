@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Contentmb from "../Assest/web-2.jpg";
-import Contentmb1 from "../Assest/web-3.jpg";
-import Contentmb2 from "../Assest/mobile-b.jpg";
-import Contentmb3 from "../Assest/mobile-c.jpg";
+// import Contentmb from "../Assest/web-2.jpg";
+// import Contentmb1 from "../Assest/web-3.jpg";
+// import Contentmb2 from "../Assest/mobile-b.jpg";
+// import Contentmb3 from "../Assest/mobile-c.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,12 +17,12 @@ function Content2() {
           <div className="flex flex-col space-y-5 overflow-hidden rounded-md shadow-sm lg:space-y-0 lg:space-x-10 lg:flex-row">
             <img
               data-aos="flip-right"
-              src={Contentmb}
+              src="https://www.athulyahomecare.com/lp/gynecology/Assest/web-2.jpg"
               alt="sample"
               className="hidden bg-gray-500 rounded h-80 aspect-video md:block"
             />
             <img
-              src={Contentmb2}
+              src="https://www.athulyahomecare.com/lp/gynecology/Assest/mobile-b.jpg"
               alt="sample"
               className="block bg-gray-500 rounded h-80 aspect-video md:hidden "
             />
@@ -37,15 +37,15 @@ function Content2() {
               </p>
             </div>
           </div>
-          <div    className="flex flex-col space-y-5 overflow-hidden rounded-md shadow-sm lg:space-y-0 lg:flex-row-reverse">
+          <div className="flex flex-col space-y-5 overflow-hidden rounded-md shadow-sm lg:space-y-0 lg:flex-row-reverse">
             <img
-            data-aos="flip-right" 
-              src={Contentmb1}
+              data-aos="flip-right"
+              src="https://www.athulyahomecare.com/lp/gynecology/Assest/web-3.jpg"
               alt=""
               className="hidden rounded h-80 aspect-video md:block"
             />
             <img
-              src={Contentmb3}
+              src="https://www.athulyahomecare.com/lp/gynecology/Assest/mobile-c.jpg"
               alt=""
               className="block rounded h-80 aspect-video md:hidden"
             />

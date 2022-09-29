@@ -1,7 +1,7 @@
 import React from "react";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
-import Gybanner from "../../Assest/gyna-1.jpg";
+// import Gybanner from "../../Assest/gyna-1.jpg";
 // import mbbanner from "../../Assest/Mbbanner.jpg";
 
 function Banner() {
@@ -10,7 +10,7 @@ function Banner() {
       <div>
         <img
           className="hidden w-full h-full pt-10 bg-cover md:block md:pt-16 lg:pt-20 "
-          src={Gybanner}
+          src="https://www.athulyahomecare.com/lp/gynecology/Assest/gyna-1.jpg"
           alt="banner "
         />
       </div>

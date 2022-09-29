@@ -1,5 +1,5 @@
 import React from "react";
-import user from "../Assest/user.jpg";
+// import user from "../Assest/user.jpg";
 
 function TestimonialNew() {
   return (
@@ -129,7 +129,7 @@ function TestimonialNew() {
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
                 <img
-                  src={user}
+                  src="https://www.athulyahomecare.com/lp/gynecology/Assest/user.jpg"
                   alt="profile pictre"
                   className="w-12 h-12 rounded-full"
                 />
@@ -258,7 +258,7 @@ function TestimonialNew() {
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
                 <img
-                  src={user}
+                  src="https://www.athulyahomecare.com/lp/gynecology/Assest/user.jpg"
                   alt="profile pictre"
                   className="w-12 h-12 rounded-full"
                 />
@@ -387,7 +387,7 @@ function TestimonialNew() {
               </div>
               <div className="flex flex-col items-center justify-center mt-10">
                 <img
-                  src={user}
+                  src="https://www.athulyahomecare.com/lp/gynecology/Assest/user.jpg"
                   alt="profile pictre"
                   className="w-12 h-12 rounded-full"
                 />
