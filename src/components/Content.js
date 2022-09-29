@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import content1 from "../Assest/web-1.jpg";
 import content12 from "../Assest/mobile-a.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Content() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="">
       <div className="">
@@ -72,7 +78,7 @@ function Content() {
               </p>
             </div>
             <div className="grid content-center ">
-              <div className="hidden xl:block">
+              <div data-aos="flip-right" className="hidden xl:block">
                 <img
                   className="relative object-cover w-full h-56 rounded shadow-lg sm:h-96"
                   src={content1}
