@@ -66,15 +66,12 @@ function MbBanner() {
       });
     }
 
-    await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactgynaecologychennai",
-      {
-        name,
-        number,
-        email,
-        textarea,
-      }
-    );
+    await axios.post("http://162.241.222.86:5000/contactgynaecologychennai", {
+      name,
+      number,
+      email,
+      textarea,
+    });
 
     // Swal.fire({
     //   icon: "success",
@@ -212,3 +209,5 @@ function MbBanner() {
 }
 
 export default MbBanner;
+
+// 74332742229222867124113

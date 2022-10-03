@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import user from "../Assest/user.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
 
 function TestimonialNew() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
+
   return (
     <>
       <div className="relative bg-zinc-100">
         <div
           class="
-		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1664194296/4907157_napwme.jpg')]  h-full w-full bg-cover bg-no-repeat  "
+		md:bg-[url('https://www.athulyahomecare.com/lp/gynecology/Assest/4907157.jpg')]  h-full w-full bg-cover bg-no-repeat  "
         >
           <h2 className="px-4 pt-10 text-2xl font-bold leading-6 text-center capitalize md:text-xl xl:text-2xl text-sky-900 font-Helvetica ">
             Testimonials
@@ -15,7 +24,7 @@ function TestimonialNew() {
           <h1 className="px-4 mt-6 text-2xl font-bold text-center capitalize lg:text-4xl md:text-4xl text-sky-900 font-Helvetica">
             What our<span className="text-pink-500"> client says</span>
           </h1>
-          <div className="container grid gap-6 px-10 py-20 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20">
+          <div data-aos="fade-up" className="container grid gap-6 px-10 py-20 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20">
             <div>
               <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-xl cursor-pointer group hover:bg-sky-900 md:p-12 rounded-xl">
                 <div className="flex flex-col items-center text-gray-800 group-hover:text-white">
