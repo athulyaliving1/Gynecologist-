@@ -59,7 +59,7 @@ function MdForm() {
     }
 
     await axios.post(
-      "http://162.241.222.86:5000/contactgynaecologychennai",
+      "https://contact-app-server-athulya.herokuapp.com/contactgynaecologychennai",
       {
         name,
         number,
