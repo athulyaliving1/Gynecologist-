@@ -37,7 +37,7 @@ function NavbarXl() {
                 <li className="hidden md:flex ">
                   <a
                     className="flex"
-                    href="mailto:mailto:enquiry@athulyaliving.com"
+                    href="mailto:mailto:response@athulyahomecare.com"
                     target="_blank"
                     rel="noreferrer"
                   >
